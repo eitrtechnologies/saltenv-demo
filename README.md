@@ -62,7 +62,7 @@ saltenv use 3004
 4. Ensure the wrapper script can be used (follow PATH procedures for your shell)
 
 ```bash
-echo 'export PATH="/home/nmhughes/.saltenv/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.saltenv/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
